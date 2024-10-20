@@ -1,0 +1,92 @@
+
+body {
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4) ), url('../images/beautiful-clouds-sky.jpg');
+}
+
+.navbar{
+  background-color: #262936;
+  
+}
+.navbar .nav-left span{
+  font-size: 0.6rem;
+}
+.navbar ul li a{
+  padding: 8px 20px;
+} 
+
+
+
+
+form.find-location button{
+  top: 5px;
+  right: 5px ;
+  bottom: 5px;
+}
+
+
+
+
+form.find-location input{
+  background-color: #1e202b !important;
+  border: none;
+}
+form.find-location input::placeholder{
+  color: white;
+  opacity: 50%;
+}
+
+
+
+
+.today .inner {
+  background-color: rgba(255, 255, 255, 0.7) ;
+}
+
+.today.forecast .forecast-header , .after-tomorrow.forecast .forecast-header {
+  background-color: #323544;
+}
+.today.forecast .forecast-body .degree  {
+  font-size: 5rem;
+}
+.today.forecast .forecast-body .degree .forecast-icon img {
+  width: 5rem;
+}
+
+
+
+.tomorrow.forecast .inner , .after-tomorrow .inner{
+  background-color: rgba(255, 255, 255, 0.3) ;
+}
+.tomorrow.forecast .forecast-header {
+  background-color: #262936;
+}
+.tomorrow.forecast .forecast-body .degree span , .after-tomorrow.forecast .forecast-body .degree span {
+  font-size: 1.5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.navbar ul li a.active{
+  color: #0baddc !important;
+  border: solid 2px #0baddc ;
+  padding: 6px 18px ;
+  border-radius: 2.5rem;
+}
+
+
+
+
+
+
